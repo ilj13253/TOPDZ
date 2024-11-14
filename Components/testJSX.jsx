@@ -1,0 +1,3 @@
+//import {TestJSX} from `../Components/TestJSX`;
+const x=+10,arr=['Alice','Bob','Sam']
+export default function TestJSX(){return <fieldset>String:{'a'+'b'}<br/>Number:{1/7}<br/>Boolean:{true}{false}<br/>Условный рендеринг:{x>0&&'икс положительный'}{x<0&&'отрицательный'}<br/> {(new Date).toLocaleDateString()} Null,undefined:_{null}{undefined}<br/>Массив:{['str',2+2,true,<input/>]} <ol>{arr.map(item=><li>{item}</li>)}</ol></fieldset>}
